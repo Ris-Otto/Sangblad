@@ -4,6 +4,4 @@
 *.aux 
 *.toc
 *.pdf
-!En_bit_och_en_sup.pdf
-!skjutit_gok_not.pdf
-!Svettvisan.pdf
+!Scores/*
