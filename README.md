@@ -43,7 +43,8 @@ To mark that a second minipage should be placed side-by-side with the first one,
 If you're using a two-column minipage setup, consider configuring a set minipage width:
 
 ```
-\begin{minipage}{.475\textwidth} %.475 of page is my preferred width, so that we can add \hspace{.05\textwidth} between the two minipages
+\begin{minipage}{.475\textwidth} //.475 of page is my preferred width, so that we can add \hspace{.05\textwidth} 
+                                 //between the two minipages
   ...
 \end{minipage}%
 \hspace{.05\textwidth}
@@ -60,7 +61,7 @@ Given these structural specifications, a full two column minipage page might loo
   \vspace{3px}
   \textit{Mel: Melody 1}
 \end{minipage}%
-\hspace{.05\textwidth} %no empty lines between side-by-side minipages
+\hspace{.05\textwidth} //no empty lines between side-by-side minipages
 \noindent
 \begin{minipage}{.475\textwidth}
   \paragraph*{Title 2\\}
@@ -69,11 +70,12 @@ Given these structural specifications, a full two column minipage page might loo
 \end{minipage}
 
 \noindent
-\begin{minipage}{.475\textwidth} %obviously, the child pages need the same spacial configuration
-  \noindent %This is up to you, I find it more pleasing having no indentation in song lyrics so before every paragraph I usually add this
-  Line 1, Song 1\\ %newline
+\begin{minipage}{.475\textwidth} //obviously, the child pages need the same spacial configuration
+  \noindent //This is up to you, I find it more pleasing having no indentation in song lyrics 
+            //so before every paragraph I usually add this
+  Line 1, Song 1\\ //newline
   Line 2, Song 1\\
-                    % extra newline here so that TeX adds horizontal space between paragraph
+                    //extra newline here so that TeX adds horizontal space between paragraph
   \noindent
   Line 3, Song 1\\
   Line 4, Song 1\\
