@@ -26,7 +26,7 @@ A minipage containing the song header:
 ```
 \begin{minipage}
   \paragraph*{Title\\}
-  \vspace{3px} %Tiny vertical space between title and melody
+  \vspace{3px} //Tiny vertical space between title and melody
   \textit{Mel: Melody}
 \end{minipage}
 ```
