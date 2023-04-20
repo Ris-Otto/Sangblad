@@ -9,6 +9,7 @@ One or more of the .tex documents uses fonts that require xetex or lualatex
 ## Roadmap i guess
 
 1. Add a requirement for songs to be split up in smaller chapters, the parser might be a bit shit and use every single ounce of memory
+2. Add support for custom .cfg style file
 
 
 # Using the dotnet `sb` (Sangblad) tool (under development)
