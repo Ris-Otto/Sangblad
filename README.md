@@ -12,7 +12,7 @@ One or more of the .tex documents uses fonts that require xetex or lualatex
 2. If this is too difficult (big dumb dumb !) just streamline the process and write a .tex library to minimise boilerplate (grr)
 
 
-# Using the dotnet sb (Sangblad) tool (under development)
+# Using the dotnet `sb` (Sangblad) tool (under development)
 
 ## Song structure 
 
@@ -23,6 +23,7 @@ One or more of the .tex documents uses fonts that require xetex or lualatex
 Basic structure of song using minipages is:
 
 A minipage containing the song header:
+
 ```
 \begin{minipage}
   \paragraph*{Title\\}
@@ -30,6 +31,7 @@ A minipage containing the song header:
   \textit{Mel: Melody}
 \end{minipage}
 ```
+
 
 Followed by either a minipage containing the song lyrics **OR** another minipage header positioned side-by-side.
 
@@ -114,3 +116,5 @@ inserting the song score on the following page.
 
 
 ### Using a text file as input
+
+(Under development)
