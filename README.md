@@ -8,8 +8,7 @@ One or more of the .tex documents uses fonts that require xetex or lualatex
 
 ## Roadmap i guess
 
-1. Create custom build script (text file with song lyrics, title and corresponding melody(if exists) -> space optimised default formatted .tex chapter/section
-2. If this is too difficult (big dumb dumb !) just streamline the process and write a .tex library to minimise boilerplate (grr)
+1. Add a requirement for songs to be split up in smaller chapters, the parser might be a bit shit and use every single ounce of memory
 
 
 # Using the dotnet `sb` (Sangblad) tool (under development)
