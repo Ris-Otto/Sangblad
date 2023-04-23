@@ -118,3 +118,8 @@ inserting the song score on the following page.
 ### Using a text file as input
 
 (Under development)
+
+- Add sponsorpage possibilities
+- Add support for chapters
+- Add support for finding & reordering songs and pages
+  - This will require some additional formatting conventions
