@@ -118,6 +118,9 @@ inserting the song score on the following page.
 ### Using a text file as input
 
 (Under development)
+
+These are all shitty, unintuitive and subject to change!
+
 Commands:
   - modify / modify-document
     - Subcommands
