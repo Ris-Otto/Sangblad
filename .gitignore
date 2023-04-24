@@ -8,3 +8,4 @@
 !Scores/*.mscz
 !*/Scores/*.pdf
 !*/Scores/*.mscz
+*.gz
