@@ -1,0 +1,39 @@
+A meta file will be added for each .tex document.
+The file will have the following properties:
+
+	- Structure: Book|Leaflet
+	- Title: Document title
+	- Songs: [song_title - song_num - page_num - line_start - line_stop]
+	- Chapters: [chapter_title - chapter_num - page_num - line_start - line_stop]
+
+The meta file will be updated everytime the document is updated.
+
+Book:
+
+	- Each section should end with a \newpage command
+
+Leaflet:
+
+	- something
+
+
+Each separate new document is added to either a directory in "Books/" or "Leaflets/"
+depending on user input.
+
+All the relevant items required for the document to compile should reside in this directory.
+For the document to be parsed the directory should have the following structure(default):
+
+	- Scores: This directory will contain any scores used in the document
+
+	- Chapters: This directory will contain all the chapters used in the document.
+		    For leaflets this will probably be a singular chapter
+
+	- document_title.meta: This file will contain information about the file and its structure.
+			       The file is created with the document, or created when reading a
+			       compatible document.
+
+	- document_title-main.tex: The main .tex file, which should be the only runnable .tex file
+				   in the directory.
+
+	- For your convenience, you could consider adding your non-TeX text files in a sub-directory here as well.
+

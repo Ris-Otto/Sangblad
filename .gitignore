@@ -6,3 +6,5 @@
 *.pdf
 !Scores/*.pdf
 !Scores/*.mscz
+!*/Scores/*.pdf
+!*/Scores/*.mscz
