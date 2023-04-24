@@ -118,6 +118,29 @@ inserting the song score on the following page.
 ### Using a text file as input
 
 (Under development)
+Commands:
+  - modify / modify-document
+    - Subcommands
+      - add
+        - Arguments
+          - <chapter>  The name of the chapter you want to add
+        - Options
+          - -n, --name <name>  The name of the .tex document/directory. Don't specify file type
+      - append
+        - Arguments
+          - <chapter>  The chapter to which you would like to append your song.
+             If no chapter is specified the song will be appended to the first chapter
+        - Options
+          - --n, --name <name>      The name of the .tex document/directory. Don't specify file type
+          - -t, --title <title>    A string containing the name of the song
+          - -m, --melody <melody>  A melody description
+          - --lyrics <lyrics>      Path to a text file or raw text enclosed in citations
+  - create / create-document
+    - Options
+      - -n, --name <name>            The name of the .tex document/directory. Don't specify file type
+      - -f, --format <Book|Leaflet>  book|leaflet
+  
+
 
 - Add sponsorpage possibilities
 - Add support for chapters
