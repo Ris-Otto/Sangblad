@@ -9,3 +9,8 @@
 !*/Scores/*.pdf
 !*/Scores/*.mscz
 *.gz
+!Books
+!Leaflets
+!Scores
+!Unformatted_entries
+*/
